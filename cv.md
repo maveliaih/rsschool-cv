@@ -18,3 +18,12 @@
 I throw myself into the business I'm really intrested in. Currently I'm trying to learn Front-End Development.
 
 ---
+
+## Skills:
+
+* C++ (Basics)
+* HTML5, CSS3
+* JavaScript (Basics)
+* Git, GitHub
+
+---
