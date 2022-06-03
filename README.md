@@ -1,1 +1,1 @@
-# rsschool-cv
+https://maveliaih.github.io/rsschool-cv/cv
