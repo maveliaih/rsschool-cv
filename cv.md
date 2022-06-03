@@ -58,6 +58,5 @@ Petrozavodsk State University (PetrSU). Third-year student of bachelor's program
 
 ## Language skills:
 
-**Russian** - Native
-
-**English** - B2
+- **Russian** \- Native
+- **English** \- B2
