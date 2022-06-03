@@ -12,3 +12,9 @@
 **Discord:** [@maveliaih](https://github.com/maveliaih)
 
 ---
+
+## About
+
+I throw myself into the business I'm really intrested in. Currently I'm trying to learn Front-End Development.
+
+---
