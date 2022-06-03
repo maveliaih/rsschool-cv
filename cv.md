@@ -27,6 +27,7 @@ I throw myself into the business I'm really intrested in. Currently I'm trying t
 * Git, GitHub
 
 ---
+
 ## Code example:
 ```
 checkboxInputs.forEach(function (checkboxes) {
@@ -60,5 +61,3 @@ Petrozavodsk State University (PetrSU). Third-year student of bachelor's program
 **Russian** - Native
 
 **English** - B2
-
----
