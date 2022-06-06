@@ -109,3 +109,75 @@ h3 {
     text-indent: 7px;
 }
 
+
+.vertical-line {
+    margin: 0 auto;
+    width: 95%;
+    height: 2px;
+    background-color: rgb(80, 80, 80);
+}
+
+main {
+    margin-top: 30px;
+    flex: 1 1 auto;
+}
+
+.container-left {
+    width: 25%;
+}
+.container-right {
+    width: 72%;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.contact-item {
+    display: table;
+    align-items: center;
+}
+.contact-item img {
+    display: inline;
+    margin-right: 5px;
+    width: 1.2em;
+    vertical-align: bottom;
+}
+.contact-item span {
+    margin-left: 20px;
+}
+.contact-item a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+}
+.contact-item a:hover {
+    color: rgb(75, 255, 183);
+}
+
+.cv-item {
+    margin-bottom: 20px;
+}
+.cv-item ul li {
+    padding-left: 20px;
+    list-style: none;
+}
+.cv-item p {
+    text-indent: 10px;
+    text-align: justify;
+}
+
+.code-example {
+    width: 325px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #fff;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+}
+
+footer.container {
+    justify-content: right;
+}
+
