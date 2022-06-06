@@ -4,8 +4,21 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
+    margin: 0 0 20px 0;
+    min-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     font-family: 'Titillium Web', sans-serif;
+    color: rgb(80, 80, 80);
+    background: rgb(232,232,232);
+    background: linear-gradient(0deg, rgb(173, 173, 173) 0%, rgba(255,255,255,1) 60%);
+}
+
+h3 {
+    color: rgb(20, 20, 20);
 }
 
 .header {
@@ -16,11 +29,12 @@ body {
     margin: 0 auto;
     display: flex;
     width: 100%;
-    max-width: 920px;
+    max-width: 940px;
+    justify-content: space-between;
 }
 
 .my-avatar {
-    max-width: 200px;
+    max-width: 230px;
     height: auto;
     position: relative;
     overflow: hidden;
@@ -29,8 +43,8 @@ body {
     display: block;
     margin: 0 auto;
     height: auto;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -39,9 +53,9 @@ body {
 }
 
 .my-info-wrapper {
+    width: 72%;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    align-items: center;
 }
 .my-info {
     display: inline;
@@ -59,9 +73,9 @@ body {
     color: rgb(90, 90, 90);
 }
 
-
 .navbar {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .navbar ul {
@@ -71,7 +85,6 @@ body {
     list-style: none;
 }
 .navbar ul li {
-    padding: 5px;
     text-transform: uppercase;
 }
 .navbar ul li::after {
@@ -92,6 +105,7 @@ body {
     transition: color 0.3s ease-in-out;
 }
 .navbar-link:hover {
-    color: rgb(0, 156, 94);
+    color: rgb(75, 255, 183);
     text-indent: 7px;
 }
+
