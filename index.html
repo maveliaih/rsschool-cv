@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Daniil Mamaev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="my-avatar">
+                <img id="my-avatar" src="./img/avatar.jpg" alt="avatar">
+            </div>
+            <div class="my-info-wrapper">
+                <div class="my-info">
+                    <h1>Daniil Mamaev</h1>
+                    <span>Junior Front-end Developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li><a class="navbar-link" href="#about">about</a></li>
+                    <li><a class="navbar-link" href="#tech-skills">tech skills</a></li>
+                    <li><a class="navbar-link" href="#tools">tools</a></li>
+                    <li><a class="navbar-link" href="#language-skills">language skills</a></li>
+                    <li><a class="navbar-link" href="#education">education</a></li>
+                    <li><a class="navbar-link" href="#code-example">code example</a></li>
+                    <li><a class="navbar-link" href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="vertical-line"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="container-left">
+                <div class="cv-item">
+                    <h3 id="contact">Contact information</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <img src="./img/email-svgrepo-com.svg" alt="email logo">
+                            <a href="mailto:slimbo.you@gmail.com">slimbo.you@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <img src="./img/github-logo-black.svg" alt="github logo">
+                            <a href="github.com/maveliaih">maveliaih</a>
+                        </div>
+                        <div class="contact-item">
+                            <img src="./img/discord-logo-black.svg" alt="discord logo">
+                            <a href="discordapp.com/users/243311826731925505">maveli</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-skills-tools">
+                    <div class="cv-item">
+                        <h3 id="tech-skills">Tech skills</h3>
+                        <ul>
+                            <li>C++ (Basics)</li>
+                            <li>HTML5, CSS3</li>
+                            <li>JavaScript (Basics)</li>
+                            <li>Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="cv-item">
+                        <h3 id="tools">Tools</h3>
+                        <ul>
+                            <li>VS Code</li>
+                            <li>Visual Studio</li>
+                            <li>Figma</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="cv-item">
+                        <h3 id="language-skills">Language skills:</h3>
+                        <ul>
+                            <li>Russian - Native</li>
+                            <li>English - B2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-right">
+                <div class="cv-item">
+                    <h3 id="about">About</h3>
+                    <p>I throw myself into the business I'm really intrested in. Currently I'm trying to learn Front-End Development.</p>
+                </div>
+                <div class="cv-item">
+                    <h3 id="education">Education</h3>
+                    <p>Petrozavodsk State University (PetrSU). Third-year student of    bachelor's program "Information Systems and Technologies. Information  Systems Development".</p>
+                </div>
+                <div class="cv-item">
+                    <h3 id="code-example">Code example</h3>
+                    <div class="code-example">
+                        <code>
+                            checkboxInputs.forEach(function (checkboxes) {<br/>
+                            &nbsp;&nbsp;<br/>
+                            &nbsp;&nbsp;if (!checkboxes.checked) {<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.add('error');<br/>
+                            &nbsp;&nbsp;} else {<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.remove('error');<br/>
+                            &nbsp;&nbsp;}<br/>
+                            &nbsp;&nbsp;<br/>
+                            });<br/>
+                            &nbsp;&nbsp;<br/>
+                            if (emptyCheckboxes.length !== 0) {<br/>
+                            &nbsp;&nbsp;console.log('checkboxes not chosen');<br/>
+                            &nbsp;&nbsp;return false;<br/>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <span>2022</span>
+    </footer>
+</body>
+</html>
