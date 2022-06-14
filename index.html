@@ -111,31 +111,34 @@
 
                 <div class="cv-item">
                     <h3 id="code-example">Code example</h3>
-                    <div class="code-example">
-                        <code>
-                            checkboxInputs.forEach(function (checkboxes) {
-                            <br>&nbsp;&nbsp;
-                            <br>&nbsp;&nbsp;if (!checkboxes.checked) {
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.add('error');
-                            <br>&nbsp;&nbsp;} else {
-                            <br>&nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.remove('error');
-                            <br>&nbsp;&nbsp;}
-                            <br>&nbsp;&nbsp;
-                            <br>});
-                            <br>&nbsp;&nbsp;
-                            <br>if (emptyCheckboxes.length !== 0) {
-                            <br>&nbsp;&nbsp;console.log('checkboxes not chosen');
-                            <br>&nbsp;&nbsp;return false;
-                            <br>}
-                        </code>
-                    </div>
+                    <code>
+                        checkboxInputs.forEach(function (checkboxes) {<br>
+                        &nbsp;&nbsp;if (!checkboxes.checked) {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.add('error');<br>
+                        &nbsp;&nbsp;} else {<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;checkboxes.classList.remove('error');
+                        &nbsp;&nbsp;}<br>
+                        });<br>
+                        <br>
+                        if (emptyCheckboxes.length !== 0) {<br>
+                        &nbsp;&nbsp;console.log('checkboxes not chosen');<br>
+                        &nbsp;&nbsp;return false;<br>
+                        }
+                    </code>
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="container">
-        <span>2022</span>
+        <span><b>2022</b></span>
+
+        <div class="github-link">
+            <img src="./img/github-logo-black.svg" alt="github logo">
+            <a href="#">github</a>
+        </div>
+
+        <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs_school_js" style="width: 70px"></a>
     </footer>
 </body>
 </html>
