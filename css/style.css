@@ -17,8 +17,8 @@ html, body {
     background: linear-gradient(0deg, rgb(173, 173, 173) 0%, rgba(255,255,255,1) 60%);
 }
 
-h3 {
-    color: rgb(20, 20, 20);
+h2,h3 {
+    color: rgb(50, 50, 50);
 }
 
 .header {
@@ -146,14 +146,6 @@ main {
 .contact-item span {
     margin-left: 20px;
 }
-.contact-item a {
-    color: rgb(80, 80, 80);
-    text-decoration: none;
-    transition: color 0.4s ease-in-out;
-}
-.contact-item a:hover {
-    color: rgb(75, 255, 183);
-}
 
 .cv-item {
     margin-bottom: 20px;
@@ -165,6 +157,14 @@ main {
 .cv-item p {
     text-indent: 10px;
     text-align: justify;
+}
+.cv-item a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.cv-item a:hover {
+    color: rgb(75, 255, 183);
 }
 
 .code-example {
