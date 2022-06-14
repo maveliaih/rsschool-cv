@@ -13,8 +13,8 @@ html, body {
 
     font-family: 'Titillium Web', sans-serif;
     color: rgb(80, 80, 80);
-    background: rgb(232,232,232);
-    background: linear-gradient(0deg, rgb(173, 173, 173) 0%, rgba(255,255,255,1) 60%);
+    /* background: rgb(232,232,232);
+    background: linear-gradient(0deg, rgb(173, 173, 173) 0%, rgba(255,255,255,1) 60%); */
 }
 
 h2,h3 {
@@ -85,6 +85,7 @@ h2,h3 {
     list-style: none;
 }
 .navbar ul li {
+    padding: 5px;
     text-transform: uppercase;
 }
 .navbar ul li::after {
@@ -167,16 +168,107 @@ main {
     color: rgb(75, 255, 183);
 }
 
-.code-example {
-    padding: 20px;
-    margin: 0 auto;
-    margin-top: 20px;
-    color: #fff;
-    background-color: rgb(37, 37, 37);
-    border-radius: 5px;
-}
 
 footer.container {
-    justify-content: right;
+    justify-content: space-between;
+}
+
+footer.container img {
+    width: 40px;
+}
+
+.github-link {
+    display: table;
+    align-items: center;
+}
+.github-link img {
+    display: inline;
+    margin-right: 5px;
+    width: 1.2em;
+    vertical-align: middle;
+}
+.github-link a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.github-link a:hover {
+    color: rgb(75, 255, 183);
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 878px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .my-avatar {
+        max-width: 100%;
+    }
+    .my-info {
+        margin-left: 0;
+    }
+    .my-info-wrapper {
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        max-width: none;
+    }
+    .container-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 2;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .container-right {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .cv-item {
+        width: 99%;
+        margin: 0 auto;
+    }
+    .container-skills-tools {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .my-avatar {
+        max-width: none;
+    }
+    .my-info {
+        margin-left: 0;
+    }
+    .my-info-wrapper {
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer.container img {
+        width: 20px;
+    }
+    footer.container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2px;
+    }
 }
 
